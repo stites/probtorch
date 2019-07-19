@@ -1,4 +1,4 @@
-{ pkgs ? import ./nix/pytorch/nix/nixpkgs.nix {} }:
+{ pkgs ? import ./nix/pin/nixpkgs.nix {} }:
 
 let
   mypackageOverrides = gpu: self: super:
