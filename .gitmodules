@@ -1,3 +1,4 @@
 [submodule "nix"]
 	path = nix
-	url = https://github.com/stites/libtorch-nix.git
+	rev = "v1.2.0-1"
+	url = https://github.com/stites/pytorch-world.git
